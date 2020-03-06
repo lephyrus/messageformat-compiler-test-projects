@@ -1,0 +1,78 @@
+* {
+  font-family: Lato, Helvetica, sans-serif;
+}
+
+input, button {
+  font-family: monospace;
+}
+
+h1 {
+  margin-left: 15px
+}
+
+h2 {
+  margin: 40px 15px 15px 15px;
+}
+
+div {
+  margin: 15px;
+}
+
+.box {
+  position: relative;
+  padding: 30px 10px 10px 10px;
+  font-family: monospace;
+  font-size: large;
+  border: 1px solid lightgray;
+}
+.box::after {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  font-family: Lato;
+  font-size: small;
+  font-weight: bold;
+}
+
+.language {
+  background-color:#cef3ff;
+}
+.language::after {
+  content: 'Language';
+}
+
+.param {
+  position: relative;
+  left: 50px;
+}
+.param::after {
+  content: attr(data-param-name);
+  position: absolute;
+  left: -65px;
+  font-size: small;
+}
+.param-value {
+  padding-left: 15px;
+  font-family: monospace;
+}
+
+.parameters {
+  background-color: transparent;
+}
+.parameters::after {
+  content: 'Parameters';
+}
+
+.message {
+  background-color: #ffffce;
+}
+.message::after {
+  content: 'Message';
+}
+
+.output {
+  background-color: #daffda;
+}
+.output::after {
+  content: 'Output';
+}

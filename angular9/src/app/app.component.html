@@ -1,0 +1,38 @@
+<h1>MessageFormat Compiler for ngx-translate</h1>
+
+<div class="box language" data-param-name="language">
+  <button #enButton value="en" (click)="onLanguageChange(enButton.value)">English</button>
+  <button #deButton value="de-CH" (click)="onLanguageChange(deButton.value)">German</button>
+</div>
+
+<h2>Example 1: "Things"</h2>
+
+<div class="box parameters">
+  <div class="param" data-param-name="count">
+    <input #count  type="range" value="1" min="0" max="3" (change)=0>
+    <span class="param-value">{{ count.value }}</span>
+  </div>
+</div>
+
+<div class="box message">{{ translations[locale].things }}</div>
+
+<div class="box output" translate [translateParams]="{ count: count.valueAsNumber }">things</div>
+
+<h2>Example 2: "People"</h2>
+
+<div class="box parameters">
+  <div class="param" data-param-name="gender">
+    <button #femaleButton value="female" (click)="onGenderChange(femaleButton.value)">female</button>
+    <button #maleButton value="male" (click)="onGenderChange(maleButton.value)">male</button>
+    <button #otherButton value="other" (click)="onGenderChange(otherButton.value)">other</button>
+    <span class="param-value">{{gender}}</span>
+  </div>
+
+  <div class="param" data-param-name="how">
+    <input #quality type="text" (keyup)=0>
+  </div>
+</div>
+
+<div class="box message">{{ translations[locale].people }}</div>
+
+<div class="box output" translate [translateParams]="{ gender: gender, how: quality.value || '...' }">people</div>
