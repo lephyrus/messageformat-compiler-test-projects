@@ -23,7 +23,7 @@
     "@ngx-translate/core": "10",
     "core-js": "^2.5.4",
     "messageformat": "^2.3.0",
-    "ngx-translate-messageformat-compiler": "^4.6.0",
+    "ngx-translate-messageformat-compiler": "^4.7.0",
     "rxjs": "~6.2.0",
     "sanitize.css": "^11.0.0",
     "zone.js": "~0.8.26"

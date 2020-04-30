@@ -5397,10 +5397,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ngx-translate-messageformat-compiler@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/ngx-translate-messageformat-compiler/-/ngx-translate-messageformat-compiler-4.6.0.tgz#ae7070cc03d3ffb07c78887bdf1433d3d5dd8cb0"
-  integrity sha512-tX2iMZ51Gh6YfMeuTdUfgYipKbcz1Z1q/lbZLOWsMqyRzKcpL9nhM2fPkWfaangKu4o4kUJloWN0kFsyy6Ge5g==
+ngx-translate-messageformat-compiler@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/ngx-translate-messageformat-compiler/-/ngx-translate-messageformat-compiler-4.7.0.tgz#e00d8cef7234f9ee333c96a981dc45e9b15401b7"
+  integrity sha512-lBqRiHX7S89f1ZBjbg9t8XDPoTgtVU4H+MoV0f7FurRqly1CV7tmn/nmR06W7D7CJ3VLP747Yi1FYHcdkZEMpg==
 
 nice-try@^1.0.4:
   version "1.0.5"
